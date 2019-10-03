@@ -81,7 +81,7 @@
 	
     ```
   
-    1. 主要是解析之前的config.toml，并写入PipelineConfigV3中
+    1. 主要是解析之前的config.toml，并写****入PipelineConfigV3中
     2. 这一步是关键，主要在这里启动了server,start会根据config来初始化
     
 2. 进入到Server的NewServer中，需要看ParsePlugins这个至关重要的函数
